@@ -12,7 +12,7 @@ To run the project:
 
 This is meant to be intuitive enough to make a demonstration unncessesary.  However, if you have any questions, or would like me to demonstrate it anyway, I will be happy to do so.
 
-Here is my [writeup](writeup.md) of the project.
+Here is my [writeup](Writeup.md) of the project.
 
 Thanks,
 
