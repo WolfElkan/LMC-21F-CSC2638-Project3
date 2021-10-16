@@ -1,5 +1,5 @@
 import Airline
-from random import random
+from random import random as rand
 nato_nums = ["ZERO", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINER"]
 
 class Airplane(object):
@@ -16,7 +16,5 @@ class Airplane(object):
 	def new():
 		return Airplane(
 			Airline.random(), 
-			int((random()*100) ** 2) # Weighted toward lower numbers
+			int((rand()*100) ** 2) # Weighted toward lower numbers
 		)
-
-print Airplane.new()
