@@ -1,8 +1,8 @@
-One issue I encountered was that if planes have an opportunity to take off, land, or join either queue at each time increment, then a backlog never really builds up.  At most, one plane will join the queue at a time, and that plane immediately can take off or land.  To solve this, I prevented closed the runway any time a plane joined either queue.  This meant each plane had to wait a minimum of 1 time increment (5 minutes in this case) before taking off or landing.  
-
 ## Was this the best application of a queue? Why or why not?
 
 A real-life airport will *usually* follow the FIFO paradigm, however exceptions will occasionally have to be made, moving certain aircraft to the front of the queue in an emergency.  The queue, as it currently exists, does not support such exceptions, and could cause problems were it implemented by an active airport.
+
+One issue I encountered was that if planes have an opportunity to take off, land, or join either queue at each time increment, then a backlog never really builds up.  At most, one plane will join the queue at a time, and that plane immediately can take off or land.  To solve this, I prevented closed the runway any time a plane joined either queue.  This meant each plane had to wait a minimum of 1 time increment (5 minutes in this case) before taking off or landing.  
 
 ## Describe other types of problems for which you think it would be appropriate to apply a queue. 
 
