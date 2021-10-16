@@ -1,14 +1,14 @@
 public class CircArrayQueue <T> {
-	CircArrayQueue(int initialCapacity) {
-
+	private T t;
+	private T[] array;
+	CircArrayQueue(Class<T> clazz, int initialCapacity) {
+		array = (T[]) Array.newInstance(clazz, initialCapacity);
 	}
 	void enqueue() {}
 	T dequeue() {
-		T t = new T();
 		return t;
 	} 
 	T getFront() {
-		T t = new T();
 		return t;
 	}
 	boolean isEmpty() {
@@ -19,6 +19,6 @@ public class CircArrayQueue <T> {
 	}
 	public static void main(String[] args) {
 		CircArrayQueue<String> test = new CircArrayQueue<>(4);
-		System.out.println("Hello World");
+		System.out.println(test);
 	}
 }

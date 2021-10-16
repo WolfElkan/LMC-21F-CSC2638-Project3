@@ -1,6 +1,6 @@
 Hi Prof. Assiter,
 
-Here is my submission for **Project 3: Queues**.  
+Here is my submission for [Project 3: Queues](https://landmark.instructure.com/courses/3993/assignments/97875).  
 
 To run the project:
 1. Download or clone to your local device.
