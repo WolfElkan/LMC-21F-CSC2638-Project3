@@ -1,16 +1,18 @@
 Hi Prof. Assiter,
 
-Here is my submission for [Project 3: Queues](https://landmark.instructure.com/courses/3993/assignments/97875).  
+Here is my submission for [Project 3: Queues](https://landmark.instructure.com/courses/3993/assignments/97875).  I completed it in Python, but implemented the Queue without using any of Python's built-in features, except for such features as are *also* available in Java.  
 
-To run the project:
-1. Download or clone to your local device.
-2. Unzip if necessary
-3. Navigate into the project folder (Probably called `LMC-21F-CSC2638-Project3`)
-4. Run `javac Airport.java` to compile the project.
-5. Run `java Airport` to run the project.
-6. Follow the prompts printed to the console.
+Data Structure:
+* [CircArrayQueue.py](CircArrayQueue.py)
 
-This is meant to be intuitive enough to make a demonstration unncessesary.  However, if you have any questions, or would like me to demonstrate it anyway, I will be happy to do so.
+Supplemental Classes:
+* [Airline.py](Airline.py)
+* [Airplane.py](Airplane.py)
+
+Main Simulation:
+* [Airport.py](Airport.py)
+
+I will demonstrate the project in class.
 
 Here is my [writeup](Writeup.md) of the project.
 
