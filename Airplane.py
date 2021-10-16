@@ -8,13 +8,18 @@ class Airplane(object):
 		super(Airplane, self).__init__()
 		self.airline = airline
 		self.flight = flight
+		self.NQ = None
+		self.DQ = None
 	def __str__(self):
 		return "{}-{:04}".format(self.airline.iata, self.flight)
 	def callsign(self):
 		return ' '.join([self.airline.callsign]+[ nato_nums[int(n)] for n in str(self.flight) ])
+	def waitTime(self):
+		return self.DQ - self.NQ
 	@staticmethod
 	def new():
-		return Airplane(
+		airplane = Airplane(
 			Airline.random(), 
-			int((rand()*100) ** 2) # Weighted toward lower numbers
+			int((rand()*99 + 1) ** 2), # Weighted toward lower numbers
 		)
+		return airplane
